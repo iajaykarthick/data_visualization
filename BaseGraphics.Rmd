@@ -1,0 +1,68 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+## Creating an exploratory plot array
+
+```{r}
+library(MASS)
+```
+
+In this exercise, you'll construct a simple exploratory plot from a data frame that gives values for three variables, recorded over two winter heating seasons. The variables are:
+
+* Temp: a measure of the outside temperature during one week
+* Gas: the amount of heating gas consumed during that week
+* Insul: a categorical variable with two values, indicating whether the measurements were made before or after an insulation upgrade was made to the house
+
+```{r}
+str(whiteside)
+```
+
+```{r}
+head(whiteside)
+```
+
+
+### Plot whiteside data
+```{r}
+plot(whiteside)
+```
+
+## Creating an explanatory scatterplot
+
+In constrast to the exploratory analysis plot you created in the previous exercise, this exercise asks you to create a simple explanatory scatterplot, suitable for sharing with others.
+
+Here, it is important to make editorial choices in constructing this plot, rather than depending entirely on default options. In particular, the important editorial aspects of this plot are: 
+1. first, the variables to be plotted, and 
+2. second, the axis labels, which are specified as strings to the xlab and ylab arguments to the plot() function.
+
+
+Question: 
+Use the plot() function to construct a scatterplot of the heating gas consumption, Gas, versus the outside temperature, Temp, from the whiteside data frame. Label the x- and y-axes to indicate the variables in the plot (i.e. "Outside temperature" and "Heating gas consumption", respectively.)
+
+### Plot Gas vs. Temp
+```{r}
+plot(x = whiteside$Temp, 
+     y = whiteside$Gas, 
+     main="Plotting Gas vs. Temp", 
+     xlab = "Outside temperature", 
+     ylab = "Heating gas consumption")
+```
+
+
+## The plot() function is generic
+One of the key features of the plot() function is that it is generic, meaning that the results of applying the function depend on the nature of the object to which it is applied.
+
+In the first exercise of this chapter, applying the plot() function to the whiteside data frame resulted in a plot array. Here, we obtain a fundamentally different kind of result when we apply the same function to Insul, a factor variable from the same data frame.
+
+Question:
+Apply the plot() function to the Insul variable from the whiteside data frame.
+
+```{r}
+# Apply the plot() function to Insul
+plot(whiteside$Insul)
+```
+
+Notice that since Insul is a factor variable, you got a barplot instead of a scatterplot.
+
