@@ -13,3 +13,7 @@ Three ways to get insights from data:
 
 [Same Stats, Different Graphs: Exploring the
 Space of Graphs in Terms of Graph Properties](https://arxiv.org/pdf/1911.01527.pdf)
+
+Datasets which are identical over a number of statistical properties, yet produce dissimilar graphs, are frequently used to illustrate the importance of graphical representations when exploring data.
+
+![Importance_of_data_viz_img](https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/images/AllDinosGrey_1.png)
