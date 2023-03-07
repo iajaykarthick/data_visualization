@@ -1,4 +1,4 @@
-name: Export my notion workspace
+name: Fetch my notion notes on Data Visualization
 
 on:
   schedule:
