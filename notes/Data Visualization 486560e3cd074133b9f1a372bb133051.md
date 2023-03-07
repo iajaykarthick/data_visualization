@@ -14,11 +14,11 @@
     - In such cases, we have the freedom to treat them as either continuous or categorical depending on the question that we try to answer.
     
 
-## Daily
+## Plots
 
 ---
 
-[Movie List](Data%20Visualization%20486560e3cd074133b9f1a372bb133051/Movie%20List%20a6644922ea3842859bed632e8f60c19f.md)
+[Histogram](Data%20Visualization%20486560e3cd074133b9f1a372bb133051/Histogram%20a6644922ea3842859bed632e8f60c19f.md)
 
 [Recipes](Data%20Visualization%20486560e3cd074133b9f1a372bb133051/Recipes%20f3f65d1435a845339d8fe2cfc3972959.md)
 
