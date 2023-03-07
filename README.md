@@ -1,6 +1,6 @@
 # Data Visualization
 
-![Fetch notion notes](https://github.com/iajaykarthick/personal-portfolio/actions/workflows/fetch_notion_notes.yml/badge.svg)
+![Fetch notion notes](https://github.com/iajaykarthick/data_visualization/actions/workflows/fetch_notion_notes.yml/badge.svg)
 
 Three ways to get insights from data:
 * Calculating summary statistics
