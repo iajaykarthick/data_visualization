@@ -16,4 +16,16 @@ Space of Graphs in Terms of Graph Properties](https://arxiv.org/pdf/1911.01527.p
 
 Datasets which are identical over a number of statistical properties, yet produce dissimilar graphs, are frequently used to illustrate the importance of graphical representations when exploring data.
 
-![Importance_of_data_viz_img](https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/images/AllDinosGrey_1.png)
+
+<img src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/images/AllDinosGrey_1.png">
+
+<p>
+    <img src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/SmallChange.gif">
+    <em>Making a number of small changes to a dataset on the left, while maintaining the same overall statistical properties (to two decimal places), shown on the right.</em>
+</p>
+
+<p>
+    <img src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/DinoSequentialSmaller.gif">
+    <em>Animation showing the progression of the Datasaurus Dozen dataset through all of the target shapes.</em>
+
+</p>
