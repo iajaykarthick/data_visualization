@@ -31,3 +31,5 @@
 [Line Plot](Data%20Visualization%20486560e3cd074133b9f1a372bb133051/Line%20Plot%209a5c85a352964965ac6f63382c78d7c7.md)
 
 [Bar Plot](Data%20Visualization%20486560e3cd074133b9f1a372bb133051/Bar%20Plot%20b242f30d30ac4b2da3bd3132284287a4.md)
+
+[Dot Plots](Data%20Visualization%20486560e3cd074133b9f1a372bb133051/Dot%20Plots%20e95ac6c1fd704566a109cdcdbbc02cf5.md)
