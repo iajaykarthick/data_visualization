@@ -1,0 +1,17 @@
+---
+title: "Data Visualization"
+author: "Ajay Karthick"
+date: "2023-03-08"
+output: html_document
+knit: (function(inputFile, encoding) {
+      out_dir <- '../html_files';
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), out_dir, 'index.html')) })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[Line Plots](line_plots.html)\

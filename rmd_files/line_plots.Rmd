@@ -1,0 +1,31 @@
+---
+title: "Line_Plots"
+author: "Ajay Karthick"
+date: "2023-03-08"
+output: html_document
+knit: (function(inputFile, encoding) {
+      out_dir <- '../html_files';
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), out_dir, 'line_plots.html')) })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+```
+
+```{r}
+ggplot(
+  BOD, 
+  aes(x=Time, y=demand)
+  ) + geom_line()
+```
+
+```{r}
+
+```
+
