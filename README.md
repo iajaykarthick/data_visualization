@@ -30,3 +30,7 @@ Datasets which are identical over a number of statistical properties, yet produc
     <em>Animation showing the progression of the Datasaurus Dozen dataset through all of the target shapes.</em>
 
 </p>
+
+#### Useful Links
+
+https://bids.github.io/colormap/
