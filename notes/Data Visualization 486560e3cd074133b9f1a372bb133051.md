@@ -33,3 +33,33 @@
 [Bar Plot](Data%20Visualization%20486560e3cd074133b9f1a372bb133051/Bar%20Plot%20b242f30d30ac4b2da3bd3132284287a4.md)
 
 [Dot Plots](Data%20Visualization%20486560e3cd074133b9f1a372bb133051/Dot%20Plots%20e95ac6c1fd704566a109cdcdbbc02cf5.md)
+
+We can can add color and shape to make our data visualizations clearer and easier to understand, especially when you find yourself working with more than two variables at the same time. 
+
+The colorspace defined for data visualization is called hue-chroma-luminance (HCL). It is designed to deal with the issues of color perception. 
+
+Hue is like the color of the rainbow. 
+
+Chroma is the intensity of the color.
+
+Luminance is the brightness of the color.
+
+When choosing the colors for the plot, we can choose one of three types of color scales.
+
+1. qualitative
+    
+    Purpose: Distinguish unordered categories
+    
+    What to vary ?: hue
+    
+2. sequential
+    
+    Purpose: Show ordering
+    
+    What to vary?: Chroma or luminance
+    
+3. diverging
+    
+    Purpose: emphasize whether values are greater than or less than some middle value 
+    
+    What to vary?: Chroma or luminance, with 2 hues.
